@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/id_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:onClick="signIn"
+            android:text="Sign-inr"/>
+
+        <Button
+            android:id="@+id/id_create_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="createFolder"
+            android:text="Create Folder"/>
+
+        <Button
+            android:id="@+id/id_folder_files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="getFolderData"
+            android:text="Show Folder Files"/>
+
+        <Button
+            android:id="@+id/id_upload_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="uploadFile"
+            android:text="Upload File"/>
+
+        <Button
+            android:id="@+id/id_sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="signOut"
+            android:text="Sign-out"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="mail-id: prateekbangre@gmail.com"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="contact/whatsapp no.: 7760651414"
+        android:layout_marginStart="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

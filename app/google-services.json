@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "702990406325",
+    "project_id": "gdriveapi-304108",
+    "storage_bucket": "gdriveapi-304108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702990406325:android:15423ab6facf18dff624fc",
+        "android_client_info": {
+          "package_name": "com.dreamappsstore.googledrive_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702990406325-29so29pnj9al18hc1r0a6sbb1gd2c4b0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamappsstore.googledrive_demo",
+            "certificate_hash": "96647f0b1c2e08bfde8c2ebe3dfde6cbb50a1f18"
+          }
+        },
+        {
+          "client_id": "702990406325-keqggsb4eadrlp8hh0ifdbqs3mp8obgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamappsstore.googledrive_demo",
+            "certificate_hash": "8ef6091453253a15d9614f8e6263735759671c39"
+          }
+        },
+        {
+          "client_id": "702990406325-mpmteti8nf9395tepj8q0fgaa2694l19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSzb54hamJr_H5fZ9HY52FjkbwxK_KF7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702990406325-mpmteti8nf9395tepj8q0fgaa2694l19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
