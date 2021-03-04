@@ -7,8 +7,10 @@ import android.Manifest;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.Scopes;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -163,8 +165,8 @@ public class MainActivity extends AppCompatActivity {
 
         GoogleSignInOptions signInOptions =
                 new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                        .requestEmail()
                         .requestScopes(new Scope(DriveScopes.DRIVE_FILE))
+                        .requestEmail()
                         .build();
         googleSignInClient = GoogleSignIn.getClient(this, signInOptions);
 

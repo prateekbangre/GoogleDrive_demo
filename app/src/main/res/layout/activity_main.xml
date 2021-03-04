@@ -67,17 +67,4 @@
         android:text="mail-id: prateekbangre@gmail.com"
         android:layout_marginStart="20dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:gravity="bottom"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:textColor="@color/black"
-        android:text="contact/whatsapp no.: 7760651414"
-        android:layout_marginStart="20dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

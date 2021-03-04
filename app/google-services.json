@@ -20,18 +20,6 @@
             "package_name": "com.dreamappsstore.googledrive_demo",
             "certificate_hash": "96647f0b1c2e08bfde8c2ebe3dfde6cbb50a1f18"
           }
-        },
-        {
-          "client_id": "702990406325-keqggsb4eadrlp8hh0ifdbqs3mp8obgq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.dreamappsstore.googledrive_demo",
-            "certificate_hash": "8ef6091453253a15d9614f8e6263735759671c39"
-          }
-        },
-        {
-          "client_id": "702990406325-mpmteti8nf9395tepj8q0fgaa2694l19.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -41,12 +29,7 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "702990406325-mpmteti8nf9395tepj8q0fgaa2694l19.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
